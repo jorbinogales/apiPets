@@ -94,7 +94,7 @@ class PetController extends Controller
         DB::beginTransaction();
         try {
 
-            $date = Date('y-m-d_h:s');
+            $date = Date('y-m-d_h-s');
             $pet->name = $request->name;
             $pet->institution_id = $request->institution_id;
             $pet->race_id = $request->race_id;
