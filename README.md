@@ -1,17 +1,14 @@
-# clone repository
+
+## Installation
+***
+A little intro about the installation. 
+```
 $ git clone https://github.com/jorbinogales/apiPets.git
-
-# install dependencies
+$ cd apiPets/
 $ composer install
-
-# create database apipets
-
-# key generate
 $ php artisan key:generate
-
-# migrate database seeder
 $ php artisan migrate:fresh --seed
-
-# start serv api
 $ php artisan serve
+```
+Note: To the migrate application  ```Create database apipPets```
 
